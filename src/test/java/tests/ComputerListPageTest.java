@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import pages.ComputerListPage;
 import pages.SignInPage;
 import pages.SignedInHomePage;
+import pages.HomePage;
 
 public class ComputerListPageTest extends BaseTest{
 
@@ -24,13 +25,14 @@ public class ComputerListPageTest extends BaseTest{
         writeFile.createSignUpDataFile();
         writeFile.writeToSignUpDataFile("seleniumtestera52@gmail.com","Richard Maven", "gemini");
 
-        // homepage.handlePopUp()
+        homePage.handlePopUp();
 
         SignInPage signInPage = homePage.navigateToSignIn();
         SignedInHomePage signedInHomePage = signInPage.fillSignIn();
 
         ComputerListPage computerListPage = signedInHomePage.navigateToComputers();
         String listRoaming = computerListPage.listStepButton();
+        //System.out.println(listRoaming);
         Assertions.assertTrue(listRoaming.contains("Cikkszám 337329"));
     }
 }

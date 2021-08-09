@@ -27,13 +27,22 @@ public class BaseTest {
     public void setup() {
         WebDriverManager.chromedriver().setup();
 
-        ChromeOptions option = new ChromeOptions();
-        option.addArguments("--headless");
-        driver = new ChromeDriver(option);
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--window-size=1920,1080");
+        options.addArguments("--disable-extensions");
+        options.addArguments("--proxy-server='direct://'");
+        options.addArguments("--proxy-bypass-list=*");
+        options.addArguments("--start-maximized");
+        options.addArguments("--headless");
+        options.addArguments("--disable-gpu");
+        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--no-sandbox");
+        options.addArguments("--ignore-certificate-errors");
+        driver = new ChromeDriver(options);
 
         driver.get("http://edigital.hu");
         driver.manage().timeouts().implicitlyWait(35, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
+        //driver.manage().window().maximize();
 
         homePage = new HomePage(driver);
     }
