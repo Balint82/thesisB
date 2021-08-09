@@ -1,5 +1,7 @@
 package tests;
 
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import pages.ComputerListPage;
@@ -20,6 +22,7 @@ public class ComputerListPageTest extends BaseTest{
         String computerResult = computerListPage.transferListComputersToString();
         Assertions.assertTrue(computerResult.contains("Intel"));
     }
+
 
     @Test
     public void listStepButtons() throws InterruptedException {

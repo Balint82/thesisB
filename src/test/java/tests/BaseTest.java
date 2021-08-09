@@ -27,9 +27,9 @@ public class BaseTest {
     public void setup() {
         WebDriverManager.chromedriver().setup();
 
-        /*ChromeOptions option = new ChromeOptions();
-        option.addArguments("--headless");*/
-        driver = new ChromeDriver();
+        ChromeOptions option = new ChromeOptions();
+        option.addArguments("--headless");
+        driver = new ChromeDriver(option);
 
         driver.get("http://edigital.hu");
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
