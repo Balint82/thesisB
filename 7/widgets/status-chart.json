@@ -1,0 +1,81 @@
+[ {
+  "uid" : "668095aa8a61bbd3",
+  "name" : "testSignIn()",
+  "time" : {
+    "start" : 1628509907572,
+    "stop" : 1628509910325,
+    "duration" : 2753
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "274923fdee7c7444",
+  "name" : "fillRegister()",
+  "time" : {
+    "start" : 1628509910742,
+    "stop" : 1628509910934,
+    "duration" : 192
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "369731c2a405a18b",
+  "name" : "deleteBillingNameData()",
+  "time" : {
+    "start" : 1628509911148,
+    "stop" : 1628509911333,
+    "duration" : 185
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3af8031165c94642",
+  "name" : "listStepButtons()",
+  "time" : {
+    "start" : 1628509911514,
+    "stop" : 1628509911670,
+    "duration" : 156
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "68ff36c79596e2e3",
+  "name" : "listComputers()",
+  "time" : {
+    "start" : 1628509911678,
+    "stop" : 1628509911884,
+    "duration" : 206
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f870e8535e28e2d6",
+  "name" : "signOut()",
+  "time" : {
+    "start" : 1628509910417,
+    "stop" : 1628509910710,
+    "duration" : 293
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d165f0c92de040e8",
+  "name" : "saveData()",
+  "time" : {
+    "start" : 1628509910956,
+    "stop" : 1628509911133,
+    "duration" : 177
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "55e8e26dd24e7a6a",
+  "name" : "rewriteBillingNameData()",
+  "time" : {
+    "start" : 1628509911337,
+    "stop" : 1628509911488,
+    "duration" : 151
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
