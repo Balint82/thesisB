@@ -1,15 +1,10 @@
 package tests;
 
-import io.qameta.allure.Severity;
-import io.qameta.allure.SeverityLevel;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import pages.ComputerListPage;
 import pages.SignInPage;
 import pages.SignedInHomePage;
-import tools.WriteDataFile;
-import tools.WriteFile;
-
 
 public class ComputerListPageTest extends BaseTest{
 

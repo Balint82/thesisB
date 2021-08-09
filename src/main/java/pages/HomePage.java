@@ -11,7 +11,7 @@ public class HomePage {
 
     protected final By POPUP_CLOSER_CATCHER = By.xpath("//*[@id=\"wps_popup\"]/div/div[1]");
     private final By COOKIE_ACCEPT_BUTTON_CATCHER = By.id("CybotCookiebotDialogBodyButtonAccept");
-
+    private final By SIGN_IN_BUTTON_CATCHER = By.xpath("//*[@id=\"main-header\"]/div[2]/div/div[1]/div[2]/ul/li[4]/a");
 
 
     public HomePage(WebDriver driver) {
@@ -22,15 +22,22 @@ public class HomePage {
 
     public SignInPage navigateToSignIn() {
         handlePopUp();
-        clickLink("Bejelentkezés");
+        WebElement signInButton = driver.findElement(SIGN_IN_BUTTON_CATCHER);
+        signInButton.click();
+
         return new SignInPage(driver);
     }
 
 
     public void handlePopUp() {
-        WebElement popUpCloser = driver.findElement(POPUP_CLOSER_CATCHER);
-        if (popUpCloser.isDisplayed()) {
-            popUpCloser.click();
+        try {
+            Thread.sleep(3000);
+            WebElement popUpCloser = driver.findElement(POPUP_CLOSER_CATCHER);
+            if (popUpCloser.isDisplayed()) {
+                popUpCloser.click();
+            }
+
+        } catch (InterruptedException e) {
         }
     }
 
@@ -42,8 +49,4 @@ public class HomePage {
         }
     }
 
-
-    public void clickLink(String link) {
-        driver.findElement(By.linkText(link)).click();
-    }
 }

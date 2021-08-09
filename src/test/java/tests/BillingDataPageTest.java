@@ -16,7 +16,6 @@ public class BillingDataPageTest extends BaseTest{
         MobilPage mobilPage = signedInHomePage.navigateToMobilPage();
         EbookPage ebookPage = mobilPage.navigateToEbookPage();
         OneEbookPage oneEbookPage = ebookPage.navigateToOneEbookPage();
-        homePage.handlePopUp();
         BillingPage billingPage = oneEbookPage.navigateToBillingPage();
         BillingDataPage billingDataPage = billingPage.navigateToBillingDataPage();
 

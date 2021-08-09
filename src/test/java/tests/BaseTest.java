@@ -28,19 +28,19 @@ public class BaseTest {
         WebDriverManager.chromedriver().setup();
 
         ChromeOptions option = new ChromeOptions();
-        option.addArguments("--headless");
+        //option.addArguments("--headless");
         driver = new ChromeDriver(option);
 
         driver.get("http://edigital.hu");
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(35, TimeUnit.SECONDS);
         driver.manage().window().maximize();
 
         homePage = new HomePage(driver);
     }
 
-    @AfterEach
+    /*@AfterEach
     public void closeTest() {
         driver.close();
-    }
+    }*/
 
 }
