@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://Balint82.github.io/thesisB",
+  "buildOrder" : 9,
+  "buildName" : "GitHub Actions Run #1112943076",
+  "buildUrl" : "https://github.com/Balint82/thesisB/actions/runs/1112943076",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://Balint82.github.io/thesisB/9/"
+} ]
