@@ -1,0 +1,145 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Bejelentkezés\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az42-510', ip: '10.1.0.148', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.NcJ8hH}, goog:chromeOptions: {debuggerAddress: localhost:34491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a410767034197bac570e02271f47b868\n*** Element info: {Using=link text, value=Bejelentkezés}",
+      "children" : [ {
+        "name" : "testSignIn()",
+        "uid" : "6c99ada72ec88716",
+        "parentUid" : "fe6f5c48aeeddd0691687091eaf77cae",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628510373686,
+          "stop" : 1628510411403,
+          "duration" : 37717
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fe6f5c48aeeddd0691687091eaf77cae"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Bejelentkezés\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az42-510', ip: '10.1.0.148', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.wzrVt3}, goog:chromeOptions: {debuggerAddress: localhost:39073}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b2fb889c9fd6662c1bcb87a77681fad1\n*** Element info: {Using=link text, value=Bejelentkezés}",
+      "children" : [ {
+        "name" : "signOut()",
+        "uid" : "c3494dc630ef849e",
+        "parentUid" : "abf2262a86be2faa4275152aacb7cb75",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628510411473,
+          "stop" : 1628510436124,
+          "duration" : 24651
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "abf2262a86be2faa4275152aacb7cb75"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Bejelentkezés\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az42-510', ip: '10.1.0.148', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.uuC5lj}, goog:chromeOptions: {debuggerAddress: localhost:38445}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b484007c09d799c30b3ef314e53c2662\n*** Element info: {Using=link text, value=Bejelentkezés}",
+      "children" : [ {
+        "name" : "fillRegister()",
+        "uid" : "a7c6bc941b1c11c8",
+        "parentUid" : "12a3a796155aee894a3e5407583204b5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628510436145,
+          "stop" : 1628510460996,
+          "duration" : 24851
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "12a3a796155aee894a3e5407583204b5"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Bejelentkezés\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az42-510', ip: '10.1.0.148', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.DEp6TP}, goog:chromeOptions: {debuggerAddress: localhost:42629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a2c80c385ffccf369d9b39cde0476a19\n*** Element info: {Using=link text, value=Bejelentkezés}",
+      "children" : [ {
+        "name" : "saveData()",
+        "uid" : "2b4d1deddd3fdb4c",
+        "parentUid" : "c605f2e25b805090cbad862c2d70742d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628510461024,
+          "stop" : 1628510485716,
+          "duration" : 24692
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c605f2e25b805090cbad862c2d70742d"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Bejelentkezés\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az42-510', ip: '10.1.0.148', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.WjYSe8}, goog:chromeOptions: {debuggerAddress: localhost:35037}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4f237f2ffcfa682d716a4f7b8fdd84b3\n*** Element info: {Using=link text, value=Bejelentkezés}",
+      "children" : [ {
+        "name" : "deleteBillingNameData()",
+        "uid" : "5196ee14365e59b",
+        "parentUid" : "1ba6f2856f9068411132d8ede8e31c8d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628510485733,
+          "stop" : 1628510510328,
+          "duration" : 24595
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1ba6f2856f9068411132d8ede8e31c8d"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Bejelentkezés\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az42-510', ip: '10.1.0.148', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.Dx3P4Y}, goog:chromeOptions: {debuggerAddress: localhost:44831}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 26852a7dd0d3545a87ac928a0f145b84\n*** Element info: {Using=link text, value=Bejelentkezés}",
+      "children" : [ {
+        "name" : "rewriteBillingNameData()",
+        "uid" : "258d8301095bbe6d",
+        "parentUid" : "1ddd24423f242974773cdd601f26a71b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628510510334,
+          "stop" : 1628510534860,
+          "duration" : 24526
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1ddd24423f242974773cdd601f26a71b"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Bejelentkezés\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az42-510', ip: '10.1.0.148', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.134f8r}, goog:chromeOptions: {debuggerAddress: localhost:41013}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 5cc3b787325bcca67767c53fec04761b\n*** Element info: {Using=link text, value=Bejelentkezés}",
+      "children" : [ {
+        "name" : "listStepButtons()",
+        "uid" : "3a2627774935f1bb",
+        "parentUid" : "d0c4a63642a1b8602529712e292db5d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628510534872,
+          "stop" : 1628510559527,
+          "duration" : 24655
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d0c4a63642a1b8602529712e292db5d8"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Bejelentkezés\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az42-510', ip: '10.1.0.148', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.kgM146}, goog:chromeOptions: {debuggerAddress: localhost:33819}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f0dbf3e49553c5b3b8affcbb99221796\n*** Element info: {Using=link text, value=Bejelentkezés}",
+      "children" : [ {
+        "name" : "listComputers()",
+        "uid" : "fe1ba2aa0d4f8173",
+        "parentUid" : "4d72c4c8925ced934844d53948eb32cd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628510559539,
+          "stop" : 1628510583982,
+          "duration" : 24443
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4d72c4c8925ced934844d53948eb32cd"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
