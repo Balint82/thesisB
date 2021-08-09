@@ -5,7 +5,7 @@ on: push
 jobs:
   autotests:
     name: Run tests and generate Allure Report
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
 
@@ -19,7 +19,8 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v1
         with:
-          java-version: 16.0.1
+          java-version: '16'
+          distribution: 'adopt'
 
       - name: Install dependencies
         run: mvn dependency:go-offline compile compiler:testCompile
@@ -63,4 +64,4 @@ jobs:
 #          context: 'Test report'
 #          state: 'success'
 #          sha: ${{ github.event.pull_request.head.sha }}
-#          target_url: balint82.github.io/thesisB/${{ github.run_number }}
+#          target_url: Balint82.github.io/thesisB/${{ github.run_number }}
