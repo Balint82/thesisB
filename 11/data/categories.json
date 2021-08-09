@@ -1,0 +1,117 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Keys to send should be a not null CharSequence",
+      "children" : [ {
+        "name" : "testSignIn()",
+        "uid" : "8f27388aac7f20df",
+        "parentUid" : "8863195d2002b04b9f89a669982dae2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628522707475,
+          "stop" : 1628522847183,
+          "duration" : 139708
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "signOut()",
+        "uid" : "71a5e4332790022a",
+        "parentUid" : "8863195d2002b04b9f89a669982dae2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628522847275,
+          "stop" : 1628522855593,
+          "duration" : 8318
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "fillRegister()",
+        "uid" : "d52494c9ce1e5e60",
+        "parentUid" : "8863195d2002b04b9f89a669982dae2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628522855613,
+          "stop" : 1628522864406,
+          "duration" : 8793
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "saveData()",
+        "uid" : "d768f38133a4a89a",
+        "parentUid" : "8863195d2002b04b9f89a669982dae2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628522864423,
+          "stop" : 1628522869949,
+          "duration" : 5526
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "deleteBillingNameData()",
+        "uid" : "63935cacf4d5b0e",
+        "parentUid" : "8863195d2002b04b9f89a669982dae2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628522869962,
+          "stop" : 1628522875722,
+          "duration" : 5760
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "rewriteBillingNameData()",
+        "uid" : "964c549308e06292",
+        "parentUid" : "8863195d2002b04b9f89a669982dae2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628522875725,
+          "stop" : 1628522881314,
+          "duration" : 5589
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "listStepButtons()",
+        "uid" : "f2922f5bc314e002",
+        "parentUid" : "8863195d2002b04b9f89a669982dae2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628522881330,
+          "stop" : 1628522889486,
+          "duration" : 8156
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "listComputers()",
+        "uid" : "b96159f8f8def3f3",
+        "parentUid" : "8863195d2002b04b9f89a669982dae2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628522889489,
+          "stop" : 1628522894665,
+          "duration" : 5176
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8863195d2002b04b9f89a669982dae2c"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
