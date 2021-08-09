@@ -48,7 +48,7 @@ public class ComputerListPage {
     }
 
 
-    public String listStepButton() throws InterruptedException {
+    public String listStepButton() throws Exception {
         HomePage homePage = new HomePage(driver);
         String result = "";
         JavascriptExecutor js = (JavascriptExecutor) driver;

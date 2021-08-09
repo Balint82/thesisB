@@ -20,11 +20,11 @@ public class ComputerListPageTest extends BaseTest{
 
 
     @Test
-    public void listStepButtons() throws InterruptedException {
+    public void listStepButtons() throws Exception {
         writeFile.createSignUpDataFile();
         writeFile.writeToSignUpDataFile("seleniumtestera52@gmail.com","Richard Maven", "gemini");
 
-        homePage.handlePopUp();
+        // homepage.handlePopUp()
 
         SignInPage signInPage = homePage.navigateToSignIn();
         SignedInHomePage signedInHomePage = signInPage.fillSignIn();

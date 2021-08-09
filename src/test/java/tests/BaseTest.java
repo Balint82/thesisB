@@ -28,7 +28,7 @@ public class BaseTest {
         WebDriverManager.chromedriver().setup();
 
         ChromeOptions option = new ChromeOptions();
-        //option.addArguments("--headless");
+        option.addArguments("--headless");
         driver = new ChromeDriver(option);
 
         driver.get("http://edigital.hu");

@@ -21,10 +21,8 @@ public class HomePage {
 
 
     public SignInPage navigateToSignIn() {
-        handlePopUp();
-        WebElement signInButton = driver.findElement(SIGN_IN_BUTTON_CATCHER);
-        signInButton.click();
-
+        // handlePopUp();
+        driver.get("https://edigital.hu/belepes");
         return new SignInPage(driver);
     }
 
@@ -38,6 +36,7 @@ public class HomePage {
             }
 
         } catch (InterruptedException e) {
+            System.out.println("I have not found Pop Up Window.");
         }
     }
 
