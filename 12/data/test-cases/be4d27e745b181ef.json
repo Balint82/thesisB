@@ -1,0 +1,133 @@
+{
+  "uid" : "be4d27e745b181ef",
+  "name" : "deleteBillingNameData()",
+  "fullName" : "tests.BillingDataPageTest.deleteBillingNameData",
+  "historyId" : "912ebd46aa37f0a571a96c3da4d82107",
+  "time" : {
+    "start" : 1628605748885,
+    "stop" : 1628605856732,
+    "duration" : 107847
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1628605748886,
+      "stop" : 1628605753869,
+      "duration" : 4983
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az39-330"
+  }, {
+    "name" : "thread",
+    "value" : "2897@fv-az39-330.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.BillingDataPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.BillingDataPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "deleteBillingNameData"
+  }, {
+    "name" : "suite",
+    "value" : "tests.BillingDataPageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 5,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "63935cacf4d5b0e",
+        "reportUrl" : "https://Balint82.github.io/thesisB/11//#testresult/63935cacf4d5b0e",
+        "status" : "broken",
+        "statusDetails" : "Keys to send should be a not null CharSequence",
+        "time" : {
+          "start" : 1628522869962,
+          "stop" : 1628522875722,
+          "duration" : 5760
+        }
+      }, {
+        "uid" : "a4ef17c8d916f351",
+        "reportUrl" : "https://Balint82.github.io/thesisB/10//#testresult/a4ef17c8d916f351",
+        "status" : "broken",
+        "statusDetails" : "Keys to send should be a not null CharSequence",
+        "time" : {
+          "start" : 1628519566077,
+          "stop" : 1628519572822,
+          "duration" : 6745
+        }
+      }, {
+        "uid" : "a35cbd7b0d64b5e1",
+        "reportUrl" : "https://Balint82.github.io/thesisB/9//#testresult/a35cbd7b0d64b5e1",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-838', ip: '10.1.0.96', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55ce8e1c0a63 <unknown>\n#1 0x55ce8df35458 <unknown>\n#2 0x55ce8df582e3 <unknown>\n#3 0x55ce8df53e9f <unknown>\n#4 0x55ce8df8db72 <unknown>\n#5 0x55ce8df87fd3 <unknown>\n#6 0x55ce8df5e514 <unknown>\n#7 0x55ce8df5f505 <unknown>\n#8 0x55ce8e1ece2e <unknown>\n#9 0x55ce8e202886 <unknown>\n#10 0x55ce8e1edd75 <unknown>\n#11 0x55ce8e203d94 <unknown>\n#12 0x55ce8e1e48eb <unknown>\n#13 0x55ce8e21ecd8 <unknown>\n#14 0x55ce8e21ee58 <unknown>\n#15 0x55ce8e238dfd <unknown>\n#16 0x7f063d5a4609 start_thread\n",
+        "time" : {
+          "start" : 1628514831642,
+          "stop" : 1628514831835,
+          "duration" : 193
+        }
+      }, {
+        "uid" : "5196ee14365e59b",
+        "reportUrl" : "https://Balint82.github.io/thesisB/8//#testresult/5196ee14365e59b",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Bejelentkezés\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az42-510', ip: '10.1.0.148', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.WjYSe8}, goog:chromeOptions: {debuggerAddress: localhost:35037}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4f237f2ffcfa682d716a4f7b8fdd84b3\n*** Element info: {Using=link text, value=Bejelentkezés}",
+        "time" : {
+          "start" : 1628510485733,
+          "stop" : 1628510510328,
+          "duration" : 24595
+        }
+      }, {
+        "uid" : "369731c2a405a18b",
+        "reportUrl" : "https://Balint82.github.io/thesisB/7//#testresult/369731c2a405a18b",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az36-633', ip: '10.1.0.92', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x556cf39e9a63 <unknown>\n#1 0x556cf375e458 <unknown>\n#2 0x556cf37812e3 <unknown>\n#3 0x556cf377ce9f <unknown>\n#4 0x556cf37b6b72 <unknown>\n#5 0x556cf37b0fd3 <unknown>\n#6 0x556cf3787514 <unknown>\n#7 0x556cf3788505 <unknown>\n#8 0x556cf3a15e2e <unknown>\n#9 0x556cf3a2b886 <unknown>\n#10 0x556cf3a16d75 <unknown>\n#11 0x556cf3a2cd94 <unknown>\n#12 0x556cf3a0d8eb <unknown>\n#13 0x556cf3a47cd8 <unknown>\n#14 0x556cf3a47e58 <unknown>\n#15 0x556cf3a61dfd <unknown>\n#16 0x7fee28c12609 start_thread\n",
+        "time" : {
+          "start" : 1628509911148,
+          "stop" : 1628509911333,
+          "duration" : 185
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "be4d27e745b181ef.json",
+  "parameterValues" : [ ]
+}

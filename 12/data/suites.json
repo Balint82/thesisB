@@ -1,0 +1,129 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests.SignInTest",
+    "children" : [ {
+      "name" : "testSignIn()",
+      "uid" : "6a138f14f5207b6f",
+      "parentUid" : "eafeaf8c276e8dbc196cdd78d9f1a03e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628605471353,
+        "stop" : 1628605557152,
+        "duration" : 85799
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "signOut()",
+      "uid" : "d4a9e1f6b1316d83",
+      "parentUid" : "eafeaf8c276e8dbc196cdd78d9f1a03e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628605557210,
+        "stop" : 1628605643335,
+        "duration" : 86125
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "eafeaf8c276e8dbc196cdd78d9f1a03e"
+  }, {
+    "name" : "tests.RegistrationPageTest",
+    "children" : [ {
+      "name" : "fillRegister()",
+      "uid" : "cdd36fb7df69e2a6",
+      "parentUid" : "57f3fb49bc8ca62b9329500386dc4ed7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628605643347,
+        "stop" : 1628605685336,
+        "duration" : 41989
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "57f3fb49bc8ca62b9329500386dc4ed7"
+  }, {
+    "name" : "tests.WriteDataFileTest",
+    "children" : [ {
+      "name" : "saveData()",
+      "uid" : "c68b5d590761da39",
+      "parentUid" : "5c62f5ad82cda74fca089dab21b7394b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628605685348,
+        "stop" : 1628605748860,
+        "duration" : 63512
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5c62f5ad82cda74fca089dab21b7394b"
+  }, {
+    "name" : "tests.BillingDataPageTest",
+    "children" : [ {
+      "name" : "deleteBillingNameData()",
+      "uid" : "be4d27e745b181ef",
+      "parentUid" : "7fd3a567d9c9c0945836276741256cbf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628605748885,
+        "stop" : 1628605856732,
+        "duration" : 107847
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "rewriteBillingNameData()",
+      "uid" : "5ec02d945c25e80c",
+      "parentUid" : "7fd3a567d9c9c0945836276741256cbf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628605856735,
+        "stop" : 1628605967875,
+        "duration" : 111140
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7fd3a567d9c9c0945836276741256cbf"
+  }, {
+    "name" : "tests.ComputerListPageTest",
+    "children" : [ {
+      "name" : "listStepButtons()",
+      "uid" : "4bd8bab82b4d8e10",
+      "parentUid" : "05c92bcaafc05d4e87cf0f3ccb3394f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628605967886,
+        "stop" : 1628606217671,
+        "duration" : 249785
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "listComputers()",
+      "uid" : "78617b521be70ee7",
+      "parentUid" : "05c92bcaafc05d4e87cf0f3ccb3394f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628606217674,
+        "stop" : 1628606280078,
+        "duration" : 62404
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "05c92bcaafc05d4e87cf0f3ccb3394f7"
+  } ],
+  "name" : "suites"
+}
