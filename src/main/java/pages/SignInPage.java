@@ -10,11 +10,11 @@ public class SignInPage {
     private WebDriver driver;
 
     private RegistrationPage registrationPage = new RegistrationPage(driver);
-    private final By REGIST_BUTTON_CATCHER = By.xpath("//*[@id=\"main-content\"]/div/div[1]/a");
+    private final By REGIST_BUTTON_CATCHER = By.xpath("//*[@id=\"main-content\"]/div/div[1]/a"); //*[@id="login"]
 
     private final By EMAIL_FIELD_CATCHER = By.id("username");
     private final By PASSWORD_FIELD_CATCHER = By.id("password");
-    private final By SIGN_IN_BUTTON_CATCHER = By.id("login");
+    private final By SIGN_IN_BUTTON_CATCHER = By.xpath("//*[@id=\"login\"]"); //*[@id="login"]
 
 
 

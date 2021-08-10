@@ -32,7 +32,6 @@ public class ComputerListPageTest extends BaseTest{
 
         ComputerListPage computerListPage = signedInHomePage.navigateToComputers();
         String listRoaming = computerListPage.listStepButton();
-        //System.out.println(listRoaming);
         Assertions.assertTrue(listRoaming.contains("Cikkszám 337329"));
     }
 }

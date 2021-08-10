@@ -26,7 +26,7 @@ public class RegistrationPageTest extends BaseTest {
 
         registrationPage.markCheckBox();
         registrationPage.clickRegButton();
-        // Assertion !!!
+
         String result = registrationPage.validateRegistration();
         Assertions.assertEquals("Ez az email cím már használatban van!", result);
     }

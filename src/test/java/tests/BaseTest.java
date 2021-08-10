@@ -42,7 +42,7 @@ public class BaseTest {
 
         driver.get("http://edigital.hu");
         driver.manage().timeouts().implicitlyWait(35, TimeUnit.SECONDS);
-        //driver.manage().window().maximize();
+        driver.manage().window().maximize();
 
         homePage = new HomePage(driver);
     }

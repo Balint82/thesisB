@@ -1,0 +1,3 @@
+Email = seleniumtestera52@gmail.com
+Name = Richard Maven
+Password = gemini

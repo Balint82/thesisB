@@ -27,7 +27,7 @@ public class SignedInHomePage {
 
     public ComputerListPage navigateToComputers() {
         HomePage homePage = new HomePage(driver);
-        // homePage.handlePopUp();
+        homePage.handlePopUp();
 
         WebElement searchBar = driver.findElement(SEARCHBAR_CATCHER);
         searchBar.sendKeys("számítógép");

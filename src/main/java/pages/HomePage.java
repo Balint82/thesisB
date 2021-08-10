@@ -1,8 +1,11 @@
 package pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage {
 
@@ -21,22 +24,19 @@ public class HomePage {
 
 
     public SignInPage navigateToSignIn() {
-        // handlePopUp();
-        driver.get("https://edigital.hu/belepes");
+        handlePopUp();
+        WebElement signInButton = driver.findElement(SIGN_IN_BUTTON_CATCHER);
+        signInButton.click();
         return new SignInPage(driver);
     }
 
 
     public void handlePopUp() {
         try {
-            Thread.sleep(3000);
-            WebElement popUpCloser = driver.findElement(POPUP_CLOSER_CATCHER);
-            if (popUpCloser.isDisplayed()) {
-                popUpCloser.click();
-            }
-
-        } catch (InterruptedException e) {
-            System.out.println("I have not found Pop Up Window.");
+            WebDriverWait wait = new WebDriverWait(driver, 20);
+            wait.until(ExpectedConditions.elementToBeClickable(POPUP_CLOSER_CATCHER)).click();
+        } catch (TimeoutException e) {
+            System.out.println("No PopUp");
         }
     }
 

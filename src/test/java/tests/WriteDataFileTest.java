@@ -27,6 +27,7 @@ public class WriteDataFileTest extends BaseTest {
 
         ReadSavedDataFile readSavedDataFile = new ReadSavedDataFile();
         String saved = readSavedDataFile.readSavedData();
+        System.out.println(saved);
         Assertions.assertTrue(saved.contains("Intel"));
     }
 }
