@@ -14,17 +14,17 @@ Teszter: 	Bálint Major
 
 Vizsgaremek teljesítési pontok:
 
-? Regisztráció 
-? Bejelentkezés 
-? Adatkezelési nyilatkozat használata 
-? Adatok listázása
-? Több oldalas lista bejárása 
-? Új adat bevitel - Done
-? Ismételt és sorozatos adatbevitel adatforrásból 
-? Meglévõ adat módosítás 
-? Adat vagy adatok törlése 
-? Adatok lementése felületrõl 
-? Kijelentkezés 
++ Regisztráció; 
++ Bejelentkezés; 
++ Adatkezelési nyilatkozat használata; 
++ Adatok listázása;
++ Több oldalas lista bejárása; 
++ Új adat bevitel; 
++ Ismételt és sorozatos adatbevitel adatforrásból; 
++ Meglévõ adat módosítás; 
++ Adat vagy adatok törlése; 
++ Adatok lementése felületrõl; 
++ Kijelentkezés; 
 
 
       Teljesített Feladat: 11
