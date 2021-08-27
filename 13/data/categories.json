@@ -1,0 +1,64 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"popup-recommender\"]/div[1]/div[2]/div/div[3]\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-461', ip: '10.1.0.103', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.SRlSem}, goog:chromeOptions: {debuggerAddress: localhost:44353}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: cc4f2a163218e8ba807f48a6b0a8afdb\n*** Element info: {Using=xpath, value=//*[@id=\"popup-recommender\"]/div[1]/div[2]/div/div[3]}",
+      "children" : [ {
+        "name" : "deleteBillingNameData()",
+        "uid" : "e02a23fa48e2d7b",
+        "parentUid" : "350e4012b24b2ea4b63bce78aabc28a6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630048368761,
+          "stop" : 1630048471622,
+          "duration" : 102861
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "350e4012b24b2ea4b63bce78aabc28a6"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"popup-recommender\"]/div[1]/div[2]/div/div[3]\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-461', ip: '10.1.0.103', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.Ih5eUW}, goog:chromeOptions: {debuggerAddress: localhost:46495}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0db61c4c3e3bed10a46dca9759e9cc80\n*** Element info: {Using=xpath, value=//*[@id=\"popup-recommender\"]/div[1]/div[2]/div/div[3]}",
+      "children" : [ {
+        "name" : "rewriteBillingNameData()",
+        "uid" : "541ef34afe65fc2b",
+        "parentUid" : "a1021f9f7cc02157150a32f0460347b4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630048471642,
+          "stop" : 1630048575392,
+          "duration" : 103750
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a1021f9f7cc02157150a32f0460347b4"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <true> but was: <false>",
+      "children" : [ {
+        "name" : "listStepButtons()",
+        "uid" : "ed04b9ceef9cba83",
+        "parentUid" : "845845d2ca1b5f839f479796c2627505",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630048575407,
+          "stop" : 1630048846798,
+          "duration" : 271391
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "845845d2ca1b5f839f479796c2627505"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

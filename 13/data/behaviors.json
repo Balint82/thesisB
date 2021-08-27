@@ -1,0 +1,109 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "testSignIn()",
+    "uid" : "47d0cf8404070ef8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630048155821,
+      "stop" : 1630048220896,
+      "duration" : 65075
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "signOut()",
+    "uid" : "2c9adf9716b3c2d3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630048220983,
+      "stop" : 1630048282606,
+      "duration" : 61623
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "fillRegister()",
+    "uid" : "ed471bd3e6b58f0c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630048282612,
+      "stop" : 1630048325779,
+      "duration" : 43167
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "saveData()",
+    "uid" : "42c68f4e715d224",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630048325791,
+      "stop" : 1630048368757,
+      "duration" : 42966
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "deleteBillingNameData()",
+    "uid" : "e02a23fa48e2d7b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1630048368761,
+      "stop" : 1630048471622,
+      "duration" : 102861
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "rewriteBillingNameData()",
+    "uid" : "541ef34afe65fc2b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1630048471642,
+      "stop" : 1630048575392,
+      "duration" : 103750
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "listStepButtons()",
+    "uid" : "ed04b9ceef9cba83",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1630048575407,
+      "stop" : 1630048846798,
+      "duration" : 271391
+    },
+    "flaky" : false,
+    "newFailed" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "listComputers()",
+    "uid" : "ba9cf0d45a3b91d2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630048846801,
+      "stop" : 1630048889511,
+      "duration" : 42710
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}
