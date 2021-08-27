@@ -1,27 +1,30 @@
 # thesisB
 
-Tested webpage link: http://extremedigital.hu
-Webpage testing repository:  https://github.com/Balint82/thesisB 
+Tesztelt weboldal link: http://extremedigital.hu
+
+Vizsgaremek github repository helye:  https://github.com/Balint82/thesisB 
+
+Allure riport link: https://balint82.github.io/thesisB/12/
 
 
-Production Name	Extreme digital
-Type	Weppage, webshop
-Recommended age	6 - 99
-Tester 	Bálint Major
+Termék neve:	Extreme digital
+Típusa:	Weboldal, webshop
+Teszter: 	Bálint Major
 
 
-Project acquitment points:
+Vizsgaremek teljesítési pontok:
 
-Testing registration
-Testing Sign in function
-Using Cookies
-Listing Datas
-Listing Datas with Pagination
-Intake new Data
-Repeated and consecutive Dataentry
-Data change
-Deleting Data
-Saving data from webpage
-Log out testing
+? Regisztráció 
+? Bejelentkezés 
+? Adatkezelési nyilatkozat használata 
+? Adatok listázása
+? Több oldalas lista bejárása 
+? Új adat bevitel - Done
+? Ismételt és sorozatos adatbevitel adatforrásból 
+? Meglévõ adat módosítás 
+? Adat vagy adatok törlése 
+? Adatok lementése felületrõl 
+? Kijelentkezés 
 
-      Completed task: 11
+
+      Teljesített Feladat: 11
